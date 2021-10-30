@@ -126,37 +126,3 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('register', 'PublicController@register')->name('register');
 Route::get('reset', [TeamController::class, 'reset_redis'])->name('reset');
 Route::get('reboot', [TeamController::class, 'reset_routing'])->name('reboot');
-
-Route::get('/', function () {
-
-    $middlewareClosure = function ($middleware) {
-        return $middleware instanceof Closure ? 'Closure' : $middleware;
-    };
-
-    $routes = collect(Route::getRoutes())->mapWithKeys(function($map){
-        $check = $map->getName();
-        if(Str::of($check)->contains('api')){
-            return [$map->getName() => $map];
-        }
-        return [];
-    });
-
-    foreach (config('pretty-routes.hide_matching') as $regex) {
-        $routes = $routes->filter(function ($value, $key) use ($regex) {
-            return !preg_match($regex, $value->uri());
-        });
-    }
-
-    $mapping = Cache::get('routing')->where('system_action_api', 1)
-    
-        ->mapToGroups(function ($model) {
-            return [$model->system_action_controller => $model];
-        });
-
-    return view(Views::form('documentation', 'home'), [
-        'routes' => $routes,
-        'middlewareClosure' => $middlewareClosure,
-        'mapping' => $mapping,
-    ]);
-
-});

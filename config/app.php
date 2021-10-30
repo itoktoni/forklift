@@ -218,6 +218,7 @@ return [
         Laravolt\Avatar\ServiceProvider::class,
         Ixudra\Curl\CurlServiceProvider::class,
         GeoSot\EnvEditor\ServiceProvider::class,
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         PowerJoinsServiceProvider::class,
     ],
 
@@ -289,6 +290,13 @@ return [
         'Client' => Webklex\IMAP\Facades\Client::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'EnvEditor' => GeoSot\EnvEditor\Facades\EnvEditor::class,
+        'SEOMeta'       => Artesaos\SEOTools\Facades\SEOMeta::class,
+        'OpenGraph'     => Artesaos\SEOTools\Facades\OpenGraph::class,
+        'Twitter'       => Artesaos\SEOTools\Facades\TwitterCard::class,
+        'JsonLd'        => Artesaos\SEOTools\Facades\JsonLd::class,
+        'JsonLdMulti'   => Artesaos\SEOTools\Facades\JsonLdMulti::class,
+        // or
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
     ],
 
 ];

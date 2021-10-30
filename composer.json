@@ -7,6 +7,7 @@
     "require": {
         "php": ">=7.2.5",
         "appstract/laravel-options": "^2.2",
+        "artesaos/seotools": "^0.20.2",
         "barryvdh/laravel-dompdf": "^0.8.0",
         "bensampo/laravel-enum": "^3.4",
         "chriskonnertz/string-calc": "^1.0",

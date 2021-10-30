@@ -26,6 +26,11 @@ class Views
         return ucfirst($folder) . '::page.' . Helper::snake($page) . '.show';
     }
 
+    public static function frontend($template = 'default')
+    {
+        return 'frontend.' . env('TEMPLATE_FRONTEND') . '.page.' . Helper::snake($template);
+    }
+
     public static function backend($file = false)
     {
         $path = 'backend.'.env('TEMPLATE_ADMIN', 'default') . '.';

@@ -10,6 +10,21 @@
       'Option' => 'Appstract\\Options\\OptionFacade',
     ),
   ),
+  'artesaos/seotools' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Artesaos\\SEOTools\\Providers\\SEOToolsServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'SEOMeta' => 'Artesaos\\SEOTools\\Facades\\SEOMeta',
+      'OpenGraph' => 'Artesaos\\SEOTools\\Facades\\OpenGraph',
+      'Twitter' => 'Artesaos\\SEOTools\\Facades\\TwitterCard',
+      'JsonLd' => 'Artesaos\\SEOTools\\Facades\\JsonLd',
+      'SEO' => 'Artesaos\\SEOTools\\Facades\\SEOTools',
+    ),
+  ),
   'barryvdh/laravel-debugbar' => 
   array (
     'providers' => 

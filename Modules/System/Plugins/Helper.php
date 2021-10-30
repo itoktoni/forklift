@@ -632,7 +632,7 @@ class Helper
 
     public static function setExtendFrontend($additional = false, $page = false)
     {
-        $path = 'frontend.' . config('website.frontend') . '.';
+        $path = 'frontend.' . env('TEMPLATE_FRONTEND') . '.';
         if ($additional && $page) {
             $path = $path . 'page.' . $additional;
         } elseif ($additional && !$page) {

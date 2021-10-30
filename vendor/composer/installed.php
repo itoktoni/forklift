@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a66aa80884355016811df0c62f8af9136628494c',
+        'reference' => 'a8926035214918b28919372307c89e0fb214a9fe',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../appstract/laravel-options',
             'aliases' => array(),
             'reference' => '22e034c1ad1d7b03000e554bb09813954d2ab188',
+            'dev_requirement' => false,
+        ),
+        'artesaos/seotools' => array(
+            'pretty_version' => 'v0.20.2',
+            'version' => '0.20.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../artesaos/seotools',
+            'aliases' => array(),
+            'reference' => '94fbb3b331dab7433b335a9aafd74a312a5525fe',
             'dev_requirement' => false,
         ),
         'balping/json-raw-encoder' => array(
@@ -589,7 +598,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a66aa80884355016811df0c62f8af9136628494c',
+            'reference' => 'a8926035214918b28919372307c89e0fb214a9fe',
             'dev_requirement' => false,
         ),
         'laravel/legacy-factories' => array(

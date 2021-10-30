@@ -125,6 +125,7 @@ return array(
     'Barryvdh\\DomPDF\\' => array($vendorDir . '/barryvdh/laravel-dompdf/src'),
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
     'Balping\\JsonRaw\\' => array($vendorDir . '/balping/json-raw-encoder/src'),
+    'Artesaos\\SEOTools\\' => array($vendorDir . '/artesaos/seotools/src/SEOTools'),
     'Appstract\\Options\\' => array($vendorDir . '/appstract/laravel-options/src'),
     'App\\' => array($baseDir . '/app'),
     'Alkhachatryan\\LaravelWebConsole\\' => array($baseDir . '/plugin/alkhachatryan/laravel-web-console/src'),
