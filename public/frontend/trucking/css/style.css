@@ -541,7 +541,7 @@ a.download-link span i{
 
 .navbar-default{
     border: none;
-    background: none;
+    background: #fff;
 }
 
 #dl-menu{
@@ -1047,9 +1047,8 @@ a.download-link span i{
 }
 
 .pt-bkg02{
-    background-image: url('../img/pics/page-title02.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: #25272e;
 }
 
 .pt-bkg03{
@@ -4027,3 +4026,25 @@ blockquote{
     -moz-border-radius: 4px;
 }
 
+.about-image{
+    margin-top: 4rem;
+}
+
+.background-dark{
+    background-color: #25272e;
+    color:#fff;
+}
+
+.container-dark{
+    margin: 0px 2rem;
+    padding:2rem;
+}
+
+.container-dark h2{
+    color: #fff;
+}
+
+.navbar-header .logo img{
+    height: 80px;
+    margin-top: -20px;
+}

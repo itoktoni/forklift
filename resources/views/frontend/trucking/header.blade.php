@@ -14,7 +14,7 @@
                             <div class="navbar-header">
                                 <div class="logo">
                                     <a href="index-2.html">
-                                        <img src="{{ Helper::frontend('img/logo.png') }}"
+                                        <img src="{{ Helper::files('logo/logo.png') }}"
                                             alt="Trucking Transportation and Logistics HTML Template" />
                                     </a>
                                 </div><!-- .logo end -->
@@ -23,94 +23,25 @@
                             <!-- MAIN NAVIGATION -->
                             <div class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown current-menu-item">
-                                        <a href="#">Home</a>
-                                    </li><!-- .dropdown end -->
+                                    <li class="{{ empty($current_url) ? 'current-menu-item' : '' }}">
+                                        <a href="{{ route('homepage') }}">Home</a>
+                                    </li>
 
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown dropdown-submenu">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Header
-                                                    types</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="index-2.html">Header default</a></li>
-                                                    <li><a href="header-default-top-bar.html">Header default top bar</a>
-                                                    </li>
-                                                    <li><a href="index08.html">Header simple light bar</a></li>
-                                                    <li><a href="header-simple-dark-bar.html">Header simple dark bar</a>
-                                                    </li>
-                                                    <li><a href="header-simple-dark.html">Header simple dark</a></li>
-                                                    <li><a href="header-menu-bottom.html">Header menu bottom light</a>
-                                                    </li>
-                                                    <li><a href="header-menu-bottom-dark.html">Header menu bottom
-                                                            dark</a></li>
-                                                </ul><!-- .dropdown-menu end -->
-                                            </li>
-                                            <li><a href="about01.html">About simple</a></li>
-                                            <li><a href="about02.html">About compact</a></li>
-                                            <li><a href="about03.html">About with sidebar</a></li>
-                                            <li><a href="simple-page-title.html">Simple page title</a></li>
-                                            <li><a href="company-history.html">Company history</a></li>
-                                            <li><a href="events.html">Company Events</a></li>
-                                            <li><a href="clients.html">Company Clients</a></li>
-                                            <li><a href="careers.html">Careers</a></li>
-                                            <li><a href="driver-application.html">Online driver application</a></li>
-                                        </ul><!-- .dropdown-menu end -->
-                                    </li><!-- .dropdown end -->
+                                    <li class="{{ $current_url == 'about' ? 'current-menu-item' : '' }}">
+                                        <a href="{{ route('about') }}">About</a>
+                                    </li>
 
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Services</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="services01.html">Services overview</a></li>
-                                            <li class="dropdown dropdown-submenu">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Logistics</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="services02.html">Logistics</a></li>
-                                                    <li><a href="overland-transportation.html">Overland
-                                                            transportation</a></li>
-                                                    <li><a href="air-freight.html">Air freight</a></li>
-                                                    <li><a href="ocean-freight.html">Ocean freight</a></li>
-                                                    <li><a href="large-projects.html">Large projects</a></li>
-                                                    <li><a href="rail-transportation.html">Rail international
-                                                            shipping</a></li>
-                                                    <li><a href="contract-logistics.html">Contract logistics</a></li>
-                                                </ul><!-- .dropdown-menu end -->
-                                            </li><!-- .dropdown-submenu end -->
-                                            <li><a href="warehousing.html">Warehousing</a></li>
-                                            <li><a href="supply-chain-management.html">Supply chain management</a></li>
-                                            <li><a href="packaging-options.html">Packaging options</a></li>
-                                            <li><a href="consulting-services.html">Consulting services</a></li>
-                                        </ul><!-- .dropdown-menu end -->
-                                    </li><!-- .dropdown end -->
-
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">News</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="news-list.html">News list</a></li>
-                                            <li><a href="news-masonry.html">News masonry</a></li>
-                                            <li><a href="news-standard.html">News standard</a></li>
-                                            <li><a href="news-single.html">News single</a></li>
-                                        </ul><!-- .dropdown-menu end -->
-                                    </li><!-- .dropdown end -->
-
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Media</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="gallery01.html">Vehicle gallery full</a></li>
-                                            <li><a href="gallery02.html">Vehicle gallery grid</a></li>
-                                        </ul><!-- .dropdown-menu end -->
-                                    </li><!-- .dropdown end -->
-
-                                    <li><a href="locations.html">Locations</a></li>
-
-                                    <li class="dropdown">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="contact-simple.html">Contact simple</a></li>
-                                            <li><a href="contact-locations.html">Contact locations</a></li>
-                                        </ul><!-- .dropdown-menu end -->
-                                    </li><!-- .dropdown end -->
+                                    <li class="{{ $current_url == 'services' ? 'current-menu-item' : '' }}">
+                                        <a href="{{ route('services') }}">Services</a>
+                                    </li>
+                                    
+                                    <li class="{{ $current_url == 'articles' ? 'current-menu-item' : '' }}">
+                                        <a href="{{ route('articles') }}">Articles</a>
+                                    </li>
+                                  
+                                    <li class="{{ $current_url == 'contact' ? 'current-menu-item' : '' }}">
+                                        <a href="{{ route('contact') }}">Contact</a>
+                                    </li>
                                 </ul><!-- .nav.navbar-nav end -->
 
                                 <!-- RESPONSIVE MENU -->

@@ -9,9 +9,14 @@ use Modules\System\Plugins\Views;
 
 class PublicController extends Controller
 {
+
+    public $current_url;
+
     public function __construct()
     {
         $this->middleware('auth')->only(['account', 'wishlist']);
+
+        $this->current_url = request()->segment(1);
 
         SEOTools::setTitle(env('website.name'));
         SEOTools::setDescription(config('website.seo'));
@@ -23,7 +28,7 @@ class PublicController extends Controller
     private function share($data = [])
     {
         $view = [
-            
+            'current_url' => $this->current_url
         ];
 
         return array_merge($view, $data);
@@ -33,5 +38,26 @@ class PublicController extends Controller
 
         return view(Views::frontend('homepage'), $this->share());
     }
+
+    public function about(){
+
+        return view(Views::frontend(__FUNCTION__), $this->share());
+    }
+
+    public function services(){
+
+        return view(Views::frontend(__FUNCTION__), $this->share());
+    }
+
+    public function articles(){
+
+        return view(Views::frontend(__FUNCTION__), $this->share());
+    }
+
+    public function contact(){
+
+        return view(Views::frontend(__FUNCTION__), $this->share());
+    }
+
 
 }
