@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Trucking - Global Logistics Solutions</h1>
+                <h1>{{ env('WEBSITE_NAME') }} - Our Service</h1>
 
                 <div class="breadcrumb-container">
                     <ul class="breadcrumb clearfix">
@@ -31,7 +31,7 @@
     </div><!-- .container end -->
 </div><!-- .page-title-style01.page-title-negative-top end -->
 
-<div class="page-content">
+<div class="page-content service">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -43,53 +43,43 @@
                         </div>
 
                         <div class="li-content">
-                            <h3>Fast Worldwide delivery</h3>
+                            <h3>SERVICES & MAINTENANCE SOLUTION</h3>
 
                             <p>
-                                Quick brown dogs jump over the lazy fox.
-                                The jay, pig, fox, zebra, and my wolves
-                                quack! Blowzy red vixens fight for a
-                                quick jump. Joaquin Phoenix was gazed
-                                by MTV for luck.
+                                Nusa Engineering serves service and maintenance of
+                                various types of forklifts, support with professional and
+                                experienced engineers.
                             </p>
+
+                            <p>
+                                <strong>Service contracts solution.</strong> The program is full service of
+                                preventive maintenance, to reduce the risk of damage
+                                resulting in high costs for repairs.
+                            </p>
+
+                            <p>
+                                Activating preventive maintenance can maintain the
+                                best performance of the forklift, resulting fair benefit to
+                                the company’s business.
+                            </p>
+
+                            <p>
+                                We have been trusted to handle service contracts /
+                                preventive maintenance in several national and
+                                multinational companies throughout Indonesia.
+                            </p>
+
+                            <p>
+                                Service and maintenance services are strengthened by
+                                the availability of spare parts at competitive prices with
+                                fast response times.
+                            </p>
+
+
                         </div><!-- .li-content end -->
                     </li>
 
-                    <li>
-                        <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                            <i class="fa fa-check-circle"></i>
-                        </div>
 
-                        <div class="li-content">
-                            <h3>End-to-end solution available</h3>
-
-                            <p>
-                                Quick brown dogs jump over the lazy fox.
-                                The jay, pig, fox, zebra, and my wolves
-                                quack! Blowzy red vixens fight for a
-                                quick jump. Joaquin Phoenix was gazed
-                                by MTV for luck.
-                            </p>
-                        </div><!-- .li-content end -->
-                    </li>
-
-                    <li>
-                        <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                            <i class="fa fa-check-circle"></i>
-                        </div>
-
-                        <div class="li-content">
-                            <h3>Safety & Compliance</h3>
-
-                            <p>
-                                Quick brown dogs jump over the lazy fox.
-                                The jay, pig, fox, zebra, and my wolves
-                                quack! Blowzy red vixens fight for a
-                                quick jump. Joaquin Phoenix was gazed
-                                by MTV for luck.
-                            </p>
-                        </div><!-- .li-content end -->
-                    </li>
                 </ul><!-- .fa-ul .fa-ul-large end -->
             </div><!-- .col-md-5 end -->
 
@@ -104,46 +94,48 @@
             <div class="col-md-6">
                 <div class="container-dark background-dark">
                     <div class="custom-heading">
-                        <h2>your benefits</h2>
+                        <h2>Spare Parts Solution</h2>
                     </div><!-- .custom-heading end -->
 
                     <p>
-                        But in certain circumstances and owing to the
-                        claims of duty or the obligations of business it
-                        will frequently occur that pleasures have to be
-                        repudiated and annoyances accepted. The wise man
-                        therefore always holds in these matters to this
-                        principle of selection: he rejects pleasures to
-                        secure other greater pleasures, or else he endures
-                        pains to avoid worse pains.
+                        Nusa Engineering has direct access with Part manufacturers ansuppliers in America, Japan and
+                        Europe, especially Germany, to
+                        guarantee the availability of forklift parts (Diesel, Battery and Gas) for
+                        various brands of forklifts;
                     </p>
 
-                    <ul class="fa-ul">
+                    <ul class="fa-ul mt-3">
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Higher quality service by optimizing transport
-                            routes, means of transportation and reducing costs
+                            • JUNGHEINRICH • CROWN • NICHIYU • CASE • NISSAN FORKLIFT
+                            • KALMAR • ATLET • MULTITON • STILLRAYMOND • LINDE
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Strong optimized supply chain infrastructure
-                            that will make a competitive advantage to your business
+                            • SINKOBE • SAMSUNG • FANTUZZI USA • LAFIS • BIG JOE
+                            • PETTIBONE
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Synchronized demand and supply which will enable
-                            easier and more accurate predictions of your
-                            clients needs
+                            • SMV FORKLIFTTCM • BOB CAT • BARRETT • SAMUK • BLUE GIANT
+                            • HAMECH • ROCIA • TAYLOR • DW FORKLIFT • CAT • YALE • HYSTER
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Effective quality measurement and monitoring
-                            will enable you to reduce costs and optimize your business.
+                            • RANSOMES • HYUNDAI • CASCADE • JCB • MANITOU • WIGGINS
+                            • TOYOTA
                         </li>
                     </ul><!-- .fa-ul end -->
+
+                    <p class="mt-3">
+                        <strong>Spare Parts solution.</strong> All you have to do is send the spare part data that
+                        you need including: Brand / Forklift Type, Spare Part Type, Part / Serial
+                        Number), and we will help you with guaranteed delivery time ancompetitive prices.
+                    </p>
+
                 </div>
             </div><!-- .col-md-6 end -->
 

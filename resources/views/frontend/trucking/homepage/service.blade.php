@@ -5,7 +5,7 @@
                 <div class="custom-heading02">
                     <h2>What we Offer</h2>
                     <p>
-                        TAILORED LOGISTIC SERVICES
+                        One Stop Forklift Service
                     </p>
                 </div><!-- .custom-heading02 end -->
             </div><!-- .col-md-12 end -->
@@ -19,7 +19,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Contract logistics</h3>
+                        <h3>Services</h3>
 
                         <p>
                             Need custom logistic service? We got it
@@ -38,7 +38,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Overland, Ocean and Air Freight</h3>
+                        <h3>Maintenance Solution</h3>
 
                         <p>
                             Trucking company offers the best logistics
@@ -59,7 +59,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Warehousing and Storage</h3>
+                        <h3>Spare Parts Solution</h3>
 
                         <p>
                             Trucking offers intelligent warehouse solution.

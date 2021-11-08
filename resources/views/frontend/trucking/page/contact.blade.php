@@ -37,20 +37,13 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="custom-heading">
-                    <h3>your inquiry</h3>
+                    <h3>Thank you</h3>
                 </div><!-- .custom-heading.left end -->
 
                 <p>
-                    Cozy sphinx waves quart jug of bad milk. A very bad
-                    quack might jinx zippy fowls. Few quips galvanized
-                    the mock jury box. Quick brown dogs jump over the
-                    lazy fox. The jay, pig, fox, zebra, and my wolves
-                    quack! Blowzy red vixens fight for a quick jump.
-                    Joaquin Phoenix was gazed by MTV for luck. A
-                    wizard’s job is to vex chumps quickly in fog. Watch
-                    "Jeopardy!", Alex Trebek's fun TV quiz game.
-                    Woven silk pyjamas exchanged for blue quartz.
-                    Brawny gods just.
+                    Thank you for your attention and Great
+                    thanks for choosing <br>“Nusa Engineering”
+                    to be a part of your business success.
                 </p>
 
                 <br />
@@ -116,25 +109,33 @@
 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d977.2567960514386!2d107.15597199755047!3d-6.2861393344726935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698561bb5afd31%3A0xd5691904f7da44ae!2sRira%20Green%20Park!5e1!3m2!1sid!2sid!4v1636273362577!5m2!1sid!2sid"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 </div>
 
-                <div class="custom-heading">
-                    <h4>company information</h4>
+                <div class="custom-heading mt-5">
+                    <h4>Company information</h4>
                 </div><!-- .custom-heading end -->
 
                 <address>
-                    123 Second Street Fifth Avenue, <br />
-                    Manhattan, New York
+                    <p>
+                        Komplek Pergudangan Rira Green
+                        Park, Blok E6, Jl. Industri, No.9a,
+                        Pasir Gombong, Cikarang Utara –
+                        Bekasi 19530
+                    </p>
                 </address>
 
                 <span class="text-big colored">
-                    +00 41 258 489 6587
+                    +6221-89321221
+                </span>
+                <br />
+                <span class="text-big colored">
+                    +62852 8889 1999 (LEE)
                 </span>
                 <br />
 
-                <a href="mailto:">info@trucking.com</a>
+                <a href="mailto:">Lee.ramleee@gmail.com</a>
             </div><!-- .col-md-6 end -->
         </div><!-- .row end -->
     </div><!-- .container end -->
