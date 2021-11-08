@@ -222,7 +222,7 @@ span {
 }
 p {
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 17px;
 }
 a {
     -webkit-transition: all 0.2s ease 0s;
@@ -4039,7 +4039,7 @@ blockquote{
 }
 
 .background-grey ul li{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 200;
 }
 
@@ -4087,5 +4087,5 @@ blockquote{
 }
 
 .service p{
-    font-size: 15px;
+    font-size: 17px;
 }
