@@ -4072,6 +4072,7 @@ blockquote{
 .navbar-header .logo img{
     height: 80px;
     margin-top: -20px;
+    margin-left: -30px;
 }
 
 .mt-5{
