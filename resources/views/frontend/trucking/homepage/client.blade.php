@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="custom-heading02 simple">
-                    <h2>Clients & Awards</h2>
+                    <h2>Clients</h2>
                 </div>
             </div><!-- .col-md-12 end -->
         </div><!-- .row end -->
@@ -12,12 +12,12 @@
             <div class="col-md-12">
                 <div class="carousel-container">
                     <div id="client-carousel" class="owl-carousel owl-carousel-navigation">
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client01.png') }}" alt="" /></div>
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client02.png') }}" alt="" /></div>
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client03.png') }}" alt="" /></div>
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client04.png') }}" alt="" /></div>
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client05.png') }}" alt="" /></div>
-                        <div class="owl-item"><img src="{{ Helper::frontend('img/pics/client06.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/enesis.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/hj.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/krisbow.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/tempo.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/transmart.png') }}" alt="" /></div>
+                        <div class="owl-item"><img src="{{ Helper::files('client/kawanlama.jpg') }}" alt="" /></div>
                     </div><!-- .owl-carousel.owl-carousel-navigation end -->
                 </div><!-- .carousel-container end -->
             </div><!-- .col-md-12 end -->

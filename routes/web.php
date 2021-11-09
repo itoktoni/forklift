@@ -10,4 +10,5 @@ Route::get('/', [PublicController::class, 'index'])->name('homepage');
 Route::get('/about', [PublicController::class, 'about'])->name('about');
 Route::get('/services', [PublicController::class, 'services'])->name('services');
 Route::get('/articles', [PublicController::class, 'articles'])->name('articles');
+Route::get('/spare-parts', [PublicController::class, 'spareParts'])->name('spareparts');
 Route::match(['POST', 'GET'],'/contact', [PublicController::class, 'contact'])->name('contact');

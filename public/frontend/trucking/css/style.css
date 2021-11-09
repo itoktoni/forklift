@@ -1478,6 +1478,7 @@ blockquote{
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
     -o-transition: all 0.2s ease-in-out 0s;
+    width: 100%;
 }
 
 #client-carousel .owl-item:hover img{
@@ -4081,6 +4082,10 @@ blockquote{
 
 .mt-3{
     margin-top: 3rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
 }
 
 .about-image{

@@ -36,7 +36,7 @@
                                         <ul class="dropdown-menu">
                                             <li><a href="{{ route('services') }}">Services Solution</a></li>
                                             <li><a href="index02.html">Maintenance Solution</a></li>
-                                            <li><a href="index03.html">Spart Parts Forklift</a></li>
+                                            <li><a href="{{ route('spareparts') }}">Spart Parts Forklift</a></li>
                                             <li><a href="index04.html">Consulting Service</a></li>
                                         </ul><!-- .dropdown-menu end -->
                                     </li><!-- .dropdown end -->

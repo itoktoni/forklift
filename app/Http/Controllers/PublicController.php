@@ -49,6 +49,11 @@ class PublicController extends Controller
         return view(Views::frontend(__FUNCTION__), $this->share());
     }
 
+    public function spareParts(){
+
+        return view(Views::frontend('spareparts'), $this->share());
+    }
+
     public function articles(){
 
         return view(Views::frontend(__FUNCTION__), $this->share());
