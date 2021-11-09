@@ -21,7 +21,6 @@ Responsive template styles
 
 .dl-menuwrapper {
     width: 100%;
-    max-width: 300px;
     float: left;
     position: relative;
     -webkit-perspective: 1000;
@@ -51,9 +50,6 @@ Responsive template styles
     text-transform: uppercase;
     text-align: left;
     padding-left: 60px;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
 }
 
 .dl-menuwrapper button:hover,
@@ -500,7 +496,6 @@ All this is done for any sub-level being entered.
     }
 
     .dl-menuwrapper{
-        max-width: 230px;
         float: left;
     }
 
@@ -1752,5 +1747,16 @@ All this is done for any sub-level being entered.
     
     .page-content.fixed.centered .container{
        left: 50%;
+    }
+}
+
+@media (max-width:768px){
+    .page-client{
+        padding-bottom: 50px;
+    }
+
+    .navbar-header .logo img{
+        margin-top: unset;
+        margin-left: unset;
     }
 }

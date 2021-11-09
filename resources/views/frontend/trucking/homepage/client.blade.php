@@ -1,4 +1,4 @@
-<div class="page-content custom-bkg bkg-grey">
+<div class="page-client page-content custom-bkg bkg-grey">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

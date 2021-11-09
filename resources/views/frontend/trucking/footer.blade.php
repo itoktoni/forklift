@@ -30,9 +30,9 @@
                         </div>
 
                         <ul>
-                            <li><a href="{{ Helper::frontend('about01.html">About us</a></li>
-                            <li><a href="{{ Helper::frontend('company-history.html">Company history</a></li>
-                            <li><a href="{{ Helper::frontend('events.html">Company Events</a></li>
+                            <li><a href="{{ route('about') }}">About us</a></li>
+                            <li><a href="{{ route('articles') }}">Articles</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                            
                         </ul>
                     </li><!-- .widget-pages end -->
@@ -42,13 +42,13 @@
                     <!-- .widget-pages start -->
                     <li class="widget widget_pages">
                         <div class="title">
-                            <h3>Industry solutions</h3>
+                            <h3>Products</h3>
                         </div>
 
                         <ul>
-                            <li><a href="{{ Helper::frontend('overland-transportation.html">Overland transportation</a></li>
-                            <li><a href="{{ Helper::frontend('air-freight.html">Air freight</a></li>
-                            <li><a href="{{ Helper::frontend('ocean-freight.html">Ocean freight</a></li>
+                            <li><a href="{{ route('services') }}">Service and Maintanance</a></li>
+                            <li><a href="{{ route('spareparts') }}">Spare Parts Forklift</a></li>
+                            <li><a href="">Consulting Service</a></li>
                            
                         </ul>
                     </li><!-- .widget-pages end -->
@@ -57,25 +57,24 @@
                 <ul class="col-md-3 col-sm-6 footer-widget-container">
                     <li class="widget widget-text">
                         <div class="title">
-                            <h3>contact us</h3>
+                            <h3>Contact us</h3>
                         </div>
 
                         <address>
-                            123 Second Street Fifth Avenue, <br />
-                            Manhattan, New York
+                            {{ env('WEBSITE_ADDRESS') }}
                         </address>
 
                         <span class="text-big">
-                            +00 41 258 489 6587
+                            {{ env('WEBSITE_PHONE') }}
                         </span>
                         <br />
 
-                        <a href="{{ Helper::frontend('mailto:">info@trucking.com</a>
+                        <a href="mailto:">{{ env('WEBSITE_EMAIL') }}</a>
                         <br />
                         <ul class="footer-social-icons">
-                            <li><a href="{{ Helper::frontend('#" class="fa fa-facebook"></a></li>
-                            <li><a href="{{ Helper::frontend('#" class="fa fa-twitter"></a></li>
-                            <li><a href="{{ Helper::frontend('#" class="fa fa-google-plus"></a></li>
+                            <li><a href="" class="fa fa-facebook"></a></li>
+                            <li><a href="" class="fa fa-twitter"></a></li>
+                            <li><a href="" class="fa fa-google-plus"></a></li>
                         </ul><!-- .footer-social-icons end -->
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
@@ -87,7 +86,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>TRUCKING 2015. All RIGHTS RESERVED.</p>
+                    <p>{{ env('WEBSITE_NAME') }}. All RIGHTS RESERVED.</p>
                 </div><!-- .col-md-6 end -->
 
                 <div class="col-md-6">
@@ -97,5 +96,5 @@
         </div><!-- .container end -->
     </div><!-- .copyright-container end -->
 
-    <a href="{{ Helper::frontend('#" class="scroll-up">Scroll</a>
+    <a href="" class="scroll-up">Scroll</a>
 </div><!-- #footer-wrapper end -->
