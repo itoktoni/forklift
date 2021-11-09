@@ -31,14 +31,20 @@
                                         <a href="{{ route('about') }}">About</a>
                                     </li>
 
-                                    <li class="{{ $current_url == 'services' ? 'current-menu-item' : '' }}">
-                                        <a href="{{ route('services') }}">Services</a>
-                                    </li>
-                                    
+                                    <li class="dropdown {{ $current_url == 'services' ? 'current-menu-item' : '' }}">
+                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Products</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="{{ route('services') }}">Services Solution</a></li>
+                                            <li><a href="index02.html">Maintenance Solution</a></li>
+                                            <li><a href="index03.html">Spart Parts Forklift</a></li>
+                                            <li><a href="index04.html">Consulting Service</a></li>
+                                        </ul><!-- .dropdown-menu end -->
+                                    </li><!-- .dropdown end -->
+
                                     <li class="{{ $current_url == 'articles' ? 'current-menu-item' : '' }}">
                                         <a href="{{ route('articles') }}">Articles</a>
                                     </li>
-                                  
+
                                     <li class="{{ $current_url == 'contact' ? 'current-menu-item' : '' }}">
                                         <a href="{{ route('contact') }}">Contact</a>
                                     </li>
