@@ -26,13 +26,13 @@
                     <!-- .widget-pages start -->
                     <li class="widget widget_pages">
                         <div class="title">
-                            <h3>quick links</h3>
+                            <h3>Marketing Support</h3>
                         </div>
 
                         <ul>
-                            <li><a href="{{ route('about') }}">About us</a></li>
-                            <li><a href="{{ route('articles') }}">Articles</a></li>
-                            <li><a href="{{ route('contact') }}">Contact</a></li>
+                            <li><a href="">Example 1 - (08111040159)</a></li>
+                            <li><a href="">Example 2 - (08111580401)</a></li>
+                            <li><a href="">Example 3 - (081311007076)</a></li>
                            
                         </ul>
                     </li><!-- .widget-pages end -->

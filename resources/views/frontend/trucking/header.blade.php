@@ -28,25 +28,25 @@
                                     </li>
 
                                     <li class="{{ $current_url == 'about' ? 'current-menu-item' : '' }}">
-                                        <a href="{{ route('about') }}">About</a>
+                                        <a href="{{ route('about') }}">Tentang Kami</a>
                                     </li>
 
                                     <li class="dropdown {{ $current_url == 'services' ? 'current-menu-item' : '' }}">
-                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Products</a>
+                                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Produk</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="{{ route('services') }}">Services Solution</a></li>
-                                            <li><a href="">Maintenance Solution</a></li>
-                                            <li><a href="{{ route('spareparts') }}">Spart Parts Forklift</a></li>
-                                            <li><a href="">Consulting Service</a></li>
+                                            <li><a href="{{ route('services') }}">Servis Forklift</a></li>
+                                            <li><a href="">Rekondisi (Konsultasi Gratis)</a></li>
+                                            <li><a href="{{ route('spareparts') }}">Penggantian Spare part</a></li>
+                                            <li><a href="">Pembelian Unit dan Sewa</a></li>
                                         </ul><!-- .dropdown-menu end -->
                                     </li><!-- .dropdown end -->
 
                                     <li class="{{ $current_url == 'articles' ? 'current-menu-item' : '' }}">
-                                        <a href="{{ route('articles') }}">Articles</a>
+                                        <a href="{{ route('articles') }}">Artikel</a>
                                     </li>
 
                                     <li class="{{ $current_url == 'contact' ? 'current-menu-item' : '' }}">
-                                        <a href="{{ route('contact') }}">Contact</a>
+                                        <a href="{{ route('contact') }}">Kontak</a>
                                     </li>
                                 </ul><!-- .nav.navbar-nav end -->
 

@@ -4095,3 +4095,17 @@ blockquote{
 .service p{
     font-size: 17px;
 }
+
+.control-label{
+    color: #fff;
+}
+
+.button{
+    border-radius: 5px !important;
+    border: unset;
+    padding: 5px 15px;
+}
+
+.ms-point-center{
+    background-color: #030060;
+}

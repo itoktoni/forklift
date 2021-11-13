@@ -21,9 +21,6 @@
                             <a href="about02.html">About</a>
                         </li>
 
-                        <li>
-                            <a href="#">About Compact</a>
-                        </li>
                     </ul><!-- .breadcrumb end -->
                 </div><!-- .breadcrumb-container end -->
             </div><!-- .col-md-12 end -->
@@ -114,6 +111,7 @@
     </div><!-- .container end -->
 </div><!-- .page-content.custom-bkg end -->
 
+<!--
 <div class="page-content mt-5">
     <div class="container">
         <div class="row">
@@ -121,7 +119,7 @@
                 <h2>Our core values</h2>
                 <p>THE THING THAT MAKES US DIFFERENT</p>
             </div>
-        </div><!-- .row end -->
+        </div>
 
         <div class="row">
             <div class="col-md-3 col-sm-6">
@@ -137,8 +135,8 @@
                         very bad quack might jinx zippy fowls. Few
                         quips galvanized the mock jury box.
                     </p>
-                </div><!-- .service-icon-center end -->
-            </div><!-- .col-md-3 end -->
+                </div>
+            </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-icon-center">
@@ -153,8 +151,8 @@
                         very bad quack might jinx zippy fowls. Few
                         quips galvanized the mock jury box.
                     </p>
-                </div><!-- .service-icon-center end -->
-            </div><!-- .col-md-3 end -->
+                </div>
+            </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-icon-center">
@@ -169,8 +167,8 @@
                         very bad quack might jinx zippy fowls. Few
                         quips galvanized the mock jury box.
                     </p>
-                </div><!-- .service-icon-center end -->
-            </div><!-- .col-md-3 end -->
+                </div>
+            </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-icon-center">
@@ -185,11 +183,12 @@
                         very bad quack might jinx zippy fowls. Few
                         quips galvanized the mock jury box.
                     </p>
-                </div><!-- .service-icon-center end -->
-            </div><!-- .col-md-3 end -->
-        </div><!-- .row end -->
+                </div>
+            </div>
+        </div>
 
-    </div><!-- .container end -->
+    </div>
 </div><!-- .page-content end -->
+
 
 @endsection

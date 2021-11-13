@@ -18,12 +18,9 @@
                         </li>
 
                         <li>
-                            <a href="about02.html">About</a>
+                            <a href="about02.html">Contact</a>
                         </li>
 
-                        <li>
-                            <a href="#">About Compact</a>
-                        </li>
                     </ul><!-- .breadcrumb end -->
                 </div><!-- .breadcrumb-container end -->
             </div><!-- .col-md-12 end -->
@@ -131,11 +128,23 @@
                 </span>
                 <br />
                 <span class="text-big colored">
-                    +62852 8889 1999 (LEE)
+                    <a href="">+62852 8889 1999 (LEE)</a>
                 </span>
                 <br />
 
                 <a href="mailto:">Lee.ramleee@gmail.com</a>
+
+                <br />
+                <br />
+                <h3>Contact Marketing : </h3>
+                <span class="text-big colored">
+                    Wa : <a href="">+62852 8889 1999 (Example 1)</a>
+                </span>
+                <br />
+                <span class="text-big colored">
+                    Wa : <a href="">+62852 8889 1999 (Example 2)</a>
+                </span>
+                <br />
             </div><!-- .col-md-6 end -->
         </div><!-- .row end -->
     </div><!-- .container end -->

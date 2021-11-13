@@ -19,7 +19,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Services</h3>
+                        <h3>Servis Forklift</h3>
 
                         <p>
                             Need custom logistic service? We got it
@@ -38,7 +38,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Maintenance Solution</h3>
+                        <h3>Rekondisi (Konsultasi Gratis)</h3>
 
                         <p>
                             Trucking company offers the best logistics
@@ -59,7 +59,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Spare Parts Solution</h3>
+                        <h3>Penggantian Spare part</h3>
 
                         <p>
                             Trucking offers intelligent warehouse solution.
@@ -78,7 +78,7 @@
                     </div><!-- .icon-container end -->
 
                     <div class="service-details">
-                        <h3>Consulting Services</h3>
+                        <h3>Pembelian Unit dan Sewa</h3>
 
                         <p>
                             Don't know what mean of transportation
