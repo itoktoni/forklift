@@ -66,19 +66,19 @@
                                         <li>
                                             <a href="#">Products</a>
                                             <ul class="dl-submenu">
-                                                <li><a href="{{ route('services') }}">Services Solution</a></li>
-                                                <li><a href="">Maintenance Solution</a></li>
-                                                <li><a href="{{ route('spareparts') }}">Spart Parts Forklift</a></li>
-                                                <li><a href="">Consulting Service</a></li>
+                                                <li><a href="{{ route('services') }}">Servis Forklift</a></li>
+                                                <li><a href="">Rekondisi (Konsultasi Gratis)</a></li>
+                                                <li><a href="{{ route('spareparts') }}">Penggantian Spare part</a></li>
+                                                <li><a href="">Pembelian Unit dan Sewa</a></li>
                                             </ul><!-- dl-submenu end -->
                                         </li>
 
                                         <li class="{{ $current_url == 'articles' ? 'current-menu-item' : '' }}">
-                                            <a href="{{ route('articles') }}">Articles</a>
+                                            <a href="{{ route('articles') }}">Artikel</a>
                                         </li>
 
                                         <li class="{{ $current_url == 'contact' ? 'current-menu-item' : '' }}">
-                                            <a href="{{ route('contact') }}">Contact</a>
+                                            <a href="{{ route('contact') }}">Kontak</a>
                                         </li>
                                     </ul><!-- .dl-menu end -->
 
