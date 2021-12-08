@@ -3,7 +3,7 @@
     <!-- slide  start -->
     <a href="" class="ms-slide">
         <!-- slide background -->
-        <img src="{{ Helper::frontend('masterslider/blank.gif') }}"
+        <img src="{{ Helper::frontend('masterslider/blank.gif') }}" 
             data-src="{{ Helper::frontend('img/slider/slide1.webp') }}" alt="International Air freight" />
 
         <h2 class="ms-layer pi-caption01" data-type="text" data-effect="top(short)"

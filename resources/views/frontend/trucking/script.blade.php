@@ -7,6 +7,7 @@ jQuery(document).ready(function($) {
     slider.setup('masterslider', {
         width: 1140, // slider standard width
         height: 854, // slider standard height
+        view: "flow",
         space: 0,
         speed: 50,
         layout: "fullwidth",
@@ -99,6 +100,12 @@ jQuery(document).ready(function($) {
             }
         }
     });
+
+    $('#slider-1').nivoSlider({
+        controlNav: false,
+        effect:"fade",
+    });
+
 
 });
 /* ]]> */

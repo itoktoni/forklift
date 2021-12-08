@@ -85,54 +85,61 @@
                             <li class="menu-item current-menu-item">
                                 <a href="consulting-services.html">Consulting services</a>
                             </li>
+
+                            <li class="menu-item">
+                                <a href="overland-transportation.html">Overland transportation</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="air-freight.html">Air freight</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="ocean-freight.html">Ocean freight</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="large-projects.html">Project logistics</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="contract-logistics.html">Contract logistics</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="rail-transportation.html">Rail transportation</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="warehousing.html">Warehousing</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="supply-chain-management.html">Supply chain management</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="packaging-options.html">Packaging options</a>
+                            </li>
+
+                            <li class="menu-item current-menu-item">
+                                <a href="consulting-services.html">Consulting services</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="supply-chain-management.html">Supply chain management</a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="packaging-options.html">Packaging options</a>
+                            </li>
+
+                            <li class="menu-item current-menu-item">
+                                <a href="consulting-services.html">Consulting services</a>
+                            </li>
                         </ul><!-- .menu end -->
                     </li><!-- .widget.widget_nav_menu end -->
 
-                    <li class="widget widget-text">
-                        <div class="title">
-                            <h3>brochure download</h3>
-                        </div>
-
-                        <img src="{{ Helper::frontend('img/pics/brochure02.jpg') }}" alt="Trucking brochure" />
-                        <br />
-
-                        <a href="trucking_brochure.pdf" target="_blank" class="download-link">
-                            <span>
-                                <i class="fa fa-file-pdf-o"></i>
-                                Annual brochure_EN.pdf
-                            </span>
-                        </a>
-
-                        <a href="trucking_brochure.pdf" target="_blank" class="download-link">
-                            <span>
-                                <i class="fa fa-file-pdf-o"></i>
-                                Annual brochure_FR.pdf
-                            </span>
-                        </a>
-                    </li><!-- .widget.widget-text end -->
-
-                    <!-- .widget.widget-text start -->
-                    <li class="widget widget-text">
-                        <div class="title">
-                            <h3>contact us</h3>
-                        </div>
-
-                        <img src="{{ Helper::frontend('img/pics/locations.jpg') }}" alt="contact us" />
-
-                        <br />
-
-                        <p>
-                            Let us know what can we do for you. Contact
-                            us today!
-                        </p>
-
-                        <a href="contact-simple.html" class="read-more">
-                            <span>
-                                Contact us
-                                <i class="fa fa-chevron-right"></i>
-                            </span>
-                        </a>
-                    </li><!-- .widget-text end -->
                 </ul><!-- .aside-widgets end -->
             </aside><!-- .aside.aside-left end -->
 
