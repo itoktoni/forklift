@@ -1007,17 +1007,17 @@ a.download-link span i{
     list-style: none;
     float: left;
     padding: 0 0px 0 3px;
-    color: #fff;
+    color: #25272E;
 }
 
 .breadcrumb li a{
-    color: #fff;
+    color: #25272E;
 }
 
 .breadcrumb li + li::before {
     font-size: 12px;
     content: '/';
-    color: #fff;
+    color: #25272E;
     padding: 0 8px;
 }
 .breadcrumb li:nth-child(2)::before {
